@@ -1,7 +1,7 @@
+   
 from math import sqrt, ceil
 
 def solution(i):
-    # Your code here
     
     string = "2"
     
@@ -16,4 +16,3 @@ def solution(i):
                 
     return print(string[i : i+5])
     
-solution(10000)
