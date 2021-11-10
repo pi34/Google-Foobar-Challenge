@@ -1,5 +1,5 @@
+   
 def solution(h, q):
-    # Your code here
 
     parents = []
 
@@ -34,3 +34,4 @@ def solution(h, q):
     return parents
 
 print(solution(3, [7, 3, 5, 1]))
+   
