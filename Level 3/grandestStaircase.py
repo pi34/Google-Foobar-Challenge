@@ -28,31 +28,3 @@ def Q(n):
         return fin
 
 print(solution(200))
-
-
-
-
-
-"""import itertools
-from math import ceil
-
-def solution(n):
-
-    stairs = []
-    numbers = [j for j in range (1, n+1)]
-
-    for i in range(2, n+1):
-        newStairs = list(itertools.combinations(numbers, i))
-        stairs.extend(newStairs)
-
-    print(len(stairs))
-    final = []
-
-    for stair in stairs:
-        if sum(stair) == n:
-            if stair not in final:
-                final.append(stair)
-
-    return print(len(final))
-
-solution(12)"""
