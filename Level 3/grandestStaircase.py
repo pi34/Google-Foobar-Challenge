@@ -3,9 +3,9 @@ import math
 def solution(n):
     return int(Q(n)-1)
 
-def s(k):
-        j = (0.5 + math.sqrt((0.5**2)-(4*1.5*(-k))))/(2*1.5)
-        d = (0.5 - math.sqrt((0.5**2)-(4*1.5*(-k))))/(2*1.5)
+def s(K):
+        j = (0.5 + math.sqrt((0.5**2)-(4*1.5*(-K))))/(2*1.5)
+        d = (0.5 - math.sqrt((0.5**2)-(4*1.5*(-K))))/(2*1.5)
         if j == int(j):
             return (-1)**j
         elif d == int(d):
